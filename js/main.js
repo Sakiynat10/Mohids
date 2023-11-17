@@ -1,15 +1,17 @@
 function openNavbar() {
     document.getElementById("navbar-responsive").style.left = "0";
-    // document.getElementById("navbar-responsive").style.top = "0";
+    document.getElementById("navbar-responsive").style.top = "0";
   }
   function closeNavbar() {
     document.getElementById("navbar-responsive").style.left = "-100%";
-    // document.getElementById("navbar-responsive").style.top = "-100%";
+    document.getElementById("navbar-responsive").style.top = "-100%";
   }
   
   document.getElementById("navbar-open").addEventListener("click", openNavbar);
   document.getElementById("navbar-close").addEventListener("click", closeNavbar);
 
+
+ 
 
   $(document).ready(function(){
     $(".owl-carousel").owlCarousel({
@@ -91,10 +93,10 @@ $(document).ready(function(){
 
 
 
-const loading = document.getElementById("loading");
+// const loading = document.getElementById("loading");
 
-  const loadingDuration = 2000; // 2s
+//   const loadingDuration = 2000; // 2s
   
-  setTimeout(() => {
-    loading.classList.add('loading-none');
-  }, loadingDuration);
+//   setTimeout(() => {
+//     loading.classList.add('loading-none');
+//   }, loadingDuration);
